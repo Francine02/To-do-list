@@ -1,12 +1,22 @@
+import logo from "/src/assets/logo2.png"
+
 export function Login () {
     return (
-        <div className=" flex justify-center mt-36 text-center">
-            <div className="w-96 h-80 bg-slate-400 p-5">
-                <p className=" text-2xl font-semibold pt-10 pb-5">Olá! Seja bem-vindo(a) ao ToDo.</p>
-                <label htmlFor="name">Qual é o seu nome?<br></br>
-                    <input type="text" id="name"/>
-                </label>
+        <>
+            <div className=" grid grid-cols-1 md:grid-cols-2 bg-[#D3E1E2] md:h-screen">
+                <div className=" p-4 flex justify-center">
+                    <img src={logo} alt="logo" className=" w-28 md:h-80 md:w-80 md:mt-28"/>
+                </div>
+                
+                <div className=" p-2 pt-10 md:pt-28 text-center bg-white rounded-tl-[8rem]">
+                    <p className=" text-2xl md:text-3xl font-bold pt-12 pb-5">Olá! Seja bem-vindo(a) ao <span className=" text-[#39c073]">ToDo</span>.</p>
+                    <label htmlFor="name" className=" font-semibold"><p className=" md:text-lg">Qual é o seu nome?</p>
+                        <input type="text" id="name" className=" bg-[#D3E1E2] rounded-xl p-1 mt-3 text-center shadow-sm"/>
+                    </label><br></br>
+
+                    <button className="bg-[#39c073] rounded-xl mt-24 shadow-sm hover:bg-[#39c074c8] active:bg-[#39c074e0]"><img src="https://img.icons8.com/?size=100&id=7789&format=png&color=000000" alt="entrar" className="w-14"/></button>
+                </div>
             </div>
-        </div>
+        </>
     )
 }
