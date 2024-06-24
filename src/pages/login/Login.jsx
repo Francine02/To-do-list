@@ -4,9 +4,7 @@ import logo from "/src/assets/logo2.png"
 export function Login () {
     const [name, setName] = useState("");
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-
+    const handleSubmit = () => {
         localStorage.setItem(name, "user");
     }
 

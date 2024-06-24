@@ -1,10 +1,10 @@
 import './index.css'
-import { Login } from '../login/Login'
+import { Auth } from './login/Auth'
 
 function App() {
   return (
     <>
-      <Login/>
+      <Auth/>
     </>
   )
 }
