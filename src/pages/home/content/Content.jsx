@@ -1,7 +1,7 @@
 export function Content () {
     return (
-        <div className="m-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ut cum obcaecati quos neque sed perferendis nostrum sequi recusandae maiores. Voluptates minus dicta delectus modi suscipit hic ut distinctio ad.</p>
+        <div className="bg-white h-screen rounded-l-[60px] pl-9 pt-9 pb-9 pr-7 md:pt-16 md:pb-16 overflow-y-auto">
+
         </div>
     )
 }
