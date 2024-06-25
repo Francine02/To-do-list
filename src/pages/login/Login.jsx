@@ -5,7 +5,7 @@ export function Login () {
     const [name, setName] = useState("");
 
     const handleSubmit = () => {
-        localStorage.setItem(name, "user");
+        window.localStorage.setItem("user", name);
     }
 
     return (
@@ -24,7 +24,7 @@ export function Login () {
                         </label>
     
                         <div className="absolute bottom-6 left-0 right-0 flex justify-center md:relative">
-                            <button className="bg-[#39c073] rounded-xl shadow-sm hover:bg-[#39c074c8] active:bg-[#39c074e0] md:mt-36 disabled:bg-slate-400 disabled:opacity-40" disabled={name.length < 3}>
+                            <button className="bg-[#39c073] rounded-xl hover:bg-[#39c074c8] active:bg-[#39c074e0] md:mt-36 disabled:bg-slate-400 disabled:opacity-40 shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)]" disabled={name.length < 3}>
                                 <img src="https://img.icons8.com/?size=100&id=7789&format=png&color=000000" alt="entrar" className="w-14"/>
                             </button>
                         </div>
