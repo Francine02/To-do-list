@@ -20,7 +20,7 @@ export function Login () {
 
                     <form onSubmit={handleSubmit}>
                         <label htmlFor="name" className=" font-semibold"><p className=" md:text-2xl text-xl pb-4">Qual é o seu nome?</p>
-                            <input type="text" id="name" className=" bg-[#D3E1E2] rounded-xl p-1 pl-5 mt-3 text-center shadow-sm" onChange={(e) => setName(e.target.value)}/>
+                            <input type="text" id="name" className=" bg-[#D3E1E2] rounded-xl p-1 pl-5 mt-3 text-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]" onChange={(e) => setName(e.target.value)}/>
                         </label>
     
                         <div className="absolute bottom-6 left-0 right-0 flex justify-center md:relative">
