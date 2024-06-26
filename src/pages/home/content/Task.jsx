@@ -7,8 +7,8 @@ export function Task () {
                 </div>
                 <div className=" col-span-4 pl-2">
                     <h1 className=" text-lg font-semibold">Titulo</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore voluptates in delectus aut architecto totam, iure dolor aspernatur sint voluptas dolorum repellat assumenda vel voluptate ad nulla blanditiis. Libero, numquam!</p>
-                    <p className="font-bold opacity-70 pt-3">16/05 - 20/07</p>
+                    <p className="text-sm"></p>
+                    <p className="font-bold text-[#606060] pt-3 text-sm">16/05 - 20/07</p>
                 </div>
             </div>
         </div>
