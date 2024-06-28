@@ -10,7 +10,7 @@ export function Home() {
     }
 
     return (
-        <div className="relative h-screen bg-[#212121]">
+        <div className="relative min-h-screen bg-[#212121]">
             <div className="grid grid-cols-10">
                 <div className="col-span-2 md:col-span-1">
                     <Menu onAddNewTask={handleAddNewTask} />

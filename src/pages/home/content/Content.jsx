@@ -17,9 +17,7 @@ export function Content({ addNewTask }) {
             <p className='text-3xl md:text-5xl font-semibold'>Olá, <span className='text-[#39c073]'>{userName}.</span>&#128075;</p>
             
             <div className='flex justify-center'>
-                <div className='fixed'> 
-                    {addNewTask && <AddTask />}   
-                </div>
+                {addNewTask && <AddTask />}   
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

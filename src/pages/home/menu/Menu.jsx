@@ -6,7 +6,7 @@ export function Menu({ onAddNewTask }) {
     const [activeButton, setActiveButton] = useState(null);
 
     return (
-        <div className="bg-[#212121] flex flex-col h-screen text-center min-h-screen">
+        <div className="bg-[#212121] flex flex-col  text-center">
             <div className="flex-grow flex flex-col items-center mt-7 md:justify-center ">
                 <Button id="seg" activeButton={activeButton} setActiveButton={setActiveButton}>S</Button>
                 <Button id="ter" activeButton={activeButton} setActiveButton={setActiveButton}>T</Button>
